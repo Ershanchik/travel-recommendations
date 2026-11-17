@@ -1,0 +1,56 @@
+{
+  "beaches": [
+    {
+      "name": "Matira Beach",
+      "location": "Bora Bora, French Polynesia"
+    },
+    {
+      "name": "Bondi Beach",
+      "location": "Sydney, Australia"
+    },
+    {
+      "name": "Kelingking Beach",
+      "location": "Nusa Penida, Indonesia"
+    },
+    {
+      "name": "Copacabana Beach",
+      "location": "Rio de Janeiro, Brazil"
+    }
+  ],
+  "temples": [
+    {
+      "name": "Fushimi Inari Shrine",
+      "location": "Kyoto, Japan"
+    },
+    {
+      "name": "Angkor Wat",
+      "location": "Siem Reap, Cambodia"
+    },
+    {
+      "name": "Ulun Danu Beratan Temple",
+      "location": "Bali, Indonesia"
+    },
+    {
+      "name": "Sensō-ji Temple",
+      "location": "Tokyo, Japan"
+    }
+  ],
+  "countries": [
+    {
+      "name": "Japan",
+      "location": "East Asia"
+    },
+    {
+      "name": "Italy",
+      "location": "Southern Europe"
+    },
+    {
+      "name": "Australia",
+      "location": "Oceania"
+    },
+    {
+      "name": "Brazil",
+      "location": "South America"
+    }
+  ]
+}
