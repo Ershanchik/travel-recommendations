@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Wander Atlas - discover memorable beaches, temples and countries through a curated travel recommendation experience.">
+  <title>Wander Atlas — Find your next extraordinary place</title>
+  <link rel="stylesheet" href="travel_recommendation.css">
+  <script src="travel_recommendation.js" defer></script>
+</head>
+<body data-page="home">
+  <header class="site-header" id="top">
+    <a class="brand" href="index.html" aria-label="Wander Atlas homepage"><span class="brand-icon" aria-hidden="true">✦</span><span>WANDER<span class="brand-dot">.</span>ATLAS</span></a>
+    <nav class="main-nav" aria-label="Main navigation">
+      <a class="nav-link active" href="index.html" aria-current="page">Home</a>
+      <a class="nav-link" href="about_us.html">About Us</a>
+      <a class="nav-link" href="contact_us.html">Contact Us</a>
+    </nav>
+    <form class="nav-search" id="search-form" role="search" autocomplete="off">
+      <label class="sr-only" for="destination-search">Search for destinations</label>
+      <svg aria-hidden="true" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 5 5"/></svg>
+      <input id="destination-search" type="search" placeholder="Try beaches, temples, countries..." aria-controls="search-results" maxlength="80" required>
+      <button class="search-button" type="submit">Search</button>
+      <button class="clear-button" id="clear-search" type="button">Clear</button>
+    </form>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-visual" aria-hidden="true"><div class="hero-light"></div><div class="hero-sun"></div><div class="hero-mountain mountain-back"></div><div class="hero-mountain mountain-front"></div><div class="hero-water"></div><div class="hero-island island-one"></div><div class="hero-island island-two"></div><div class="hero-palms">✦</div></div>
+      <div class="hero-inner">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> YOUR NEXT CHAPTER STARTS HERE</div>
+          <h1 id="hero-title">GO SOMEWHERE<br><em>INCREDIBLE.</em></h1>
+          <p>There is a whole world waiting to surprise you. Explore sunlit beaches, timeless temples and fascinating countries — one remarkable destination at a time.</p>
+          <div class="hero-actions"><a class="button button-primary" href="#discover">Explore destinations <span aria-hidden="true">↗</span></a><a class="button button-ghost" href="about_us.html">Our story <span aria-hidden="true">→</span></a></div>
+          <div class="hero-proof"><div class="avatar-stack" aria-hidden="true"><b>J</b><b>M</b><b>A</b></div><span>Curated places. Real inspiration.<br><strong>Made for curious travelers.</strong></span></div>
+        </div>
+        <div class="hero-stamp" aria-hidden="true"><div class="stamp-ring">GO • EXPLORE • DISCOVER •</div><strong>✳</strong></div>
+        <div class="hero-vertical" aria-hidden="true">COLLECT MOMENTS, NOT THINGS — EST. 2026</div>
+      </div>
+      <div class="hero-bottom"><span>01 / THE ART OF GETTING LOST</span><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section class="intro-section" id="discover" aria-labelledby="discover-title">
+      <div class="section-intro"><span class="kicker">THE WORLD IS YOURS</span><h2 id="discover-title">Where to <span>next?</span></h2><p>Not sure where to start? Choose a mood below, or use search in the navigation bar to uncover destinations with photos and travel tips.</p></div>
+      <div class="category-grid">
+        <button class="category-card beaches" type="button" data-search="beaches"><span class="category-index">01 / ESCAPE</span><span class="category-symbol" aria-hidden="true">☼</span><span class="category-title">Beaches</span><span class="category-meta">COASTAL DREAMS <span aria-hidden="true">↗</span></span></button>
+        <button class="category-card temples" type="button" data-search="temples"><span class="category-index">02 / DISCOVER</span><span class="category-symbol" aria-hidden="true">⌂</span><span class="category-title">Temples</span><span class="category-meta">TIMELESS WONDERS <span aria-hidden="true">↗</span></span></button>
+        <button class="category-card countries" type="button" data-search="countries"><span class="category-index">03 / JOURNEY</span><span class="category-symbol" aria-hidden="true">✧</span><span class="category-title">Countries</span><span class="category-meta">CULTURES & STORIES <span aria-hidden="true">↗</span></span></button>
+      </div>
+    </section>
+
+    <section class="results-section" id="results" aria-live="polite" aria-labelledby="results-heading" hidden>
+      <div class="results-heading"><div><span class="kicker">HANDPICKED FOR YOU</span><h2 id="results-heading">Your <span>recommendations</span></h2><p id="results-description"></p></div><button id="close-results" class="results-dismiss" type="button">Close results <span aria-hidden="true">×</span></button></div>
+      <div class="results-grid" id="search-results"></div>
+    </section>
+
+    <section class="highlight-section" aria-label="Why travel with Wander Atlas"><div class="highlight-line"><div><span class="kicker">NOT JUST A DESTINATION</span><h2>Collect stories.<br><i>Not souvenirs.</i></h2></div><p>From quiet coastlines to architectural wonders, every place has a story worth finding. Let curiosity lead the way.</p></div><div class="stat-line"><div><strong>03</strong><span>WAYS TO EXPLORE</span></div><div><strong>12</strong><span>CURATED PLACES</span></div><div><strong>∞</strong><span>STORIES TO MAKE</span></div></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-icon" aria-hidden="true">✦</span> WANDER<span class="brand-dot">.</span>ATLAS</a><span>Made for the journey, not just the destination.</span><span>© 2026 Wander Atlas</span></footer>
+</body>
+</html>
